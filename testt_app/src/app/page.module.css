@@ -1,0 +1,127 @@
+.productTable {
+  width: 90%;
+  border-collapse: collapse;
+  margin-top: 50px;
+  font-size: 16px;
+  text-align: left;
+  margin-left: 60px;
+}
+
+.productTable th, .productTable td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.productTable th {
+  background-color: black;
+  color: white;
+}
+
+.productTable tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light Gray */
+}
+
+@media (max-width: 768px) {
+  .productTable {
+    display: block;
+    overflow-x: auto; /* Horizontal scroll on small screens */
+    border: none;
+  }
+}
+.icon {
+  width: 16px;  
+  height: 16px; 
+  color: #333; 
+  cursor: pointer; 
+}
+
+.logo {
+  margin-top: 30px;
+  margin-left: 35%;
+}
+
+.title {
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: palevioletred;
+}
+
+.page {
+  margin-top: 20px;
+  margin-left: 40%;
+  width: 20%;
+  height: 50px;
+  background-color: palevioletred;
+}
+
+.header{
+  background-color: gainsboro;
+}
+
+.photo{
+  margin-left: 4%;
+}
+
+.swiper {
+  background-color: #ffe0f0; 
+}
+
+.login{
+  margin-top: 10%;
+}
+
+.productDetail {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.productImage {
+  border-radius: 8px;
+}
+
+.productTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.productDescription {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.productPrice {
+  font-size: 25px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.originalPrice {
+  text-decoration: line-through; 
+  color: red; 
+  margin-right: 10px; 
+  font-size: 15px;
+}
+
+.discountedPrice {
+  color: black; 
+  font-weight: bold;
+}
+
+.discountBadge{
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.productDetails {
+  font-size: 14px;
+  margin: 5px 0;
+  color: bla;
+}
