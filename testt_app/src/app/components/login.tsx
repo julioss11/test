@@ -7,12 +7,12 @@ import { Container, Typography, TextField, Button, Snackbar } from '@mui/materia
 import { useRouter } from 'next/navigation'; 
 import React, { useState } from 'react';
 import styles from '../page.module.css';
-
+// Define a validation schema using Zod for the login form.
 const schema = z.object({
   username: z.string().nonempty("Username is required"),
   password: z.string().min(6, "Password must be at least 6 characters").nonempty("Password is required"),
 });
-
+// Define the type for form inputs based on the Zod schema.
 type LoginFormInputs = z.infer<typeof schema>;
 
 export default function LoginPage() {
